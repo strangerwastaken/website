@@ -8,7 +8,7 @@ $password=$_POST["password"];
 
 //id password check
 
-if($email=="admin@admin.com" && $password=="password"){
+if($email==$_SESSION["email"] && $password==$_SESSION["password"]){
 $_SESSION["user"]= "admin@admin.com";
 echo "logged in successfully. click here to go to <a href='./index.php'>home page</a>";
 }
