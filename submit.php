@@ -13,6 +13,6 @@ $_SESSION["user"]= "admin@admin.com";
 echo "logged in successfully. click here to go to <a href='./index.php'>home page</a>";
 }
 else {
-    echo "username / password not found. ";
+    echo "username / password not found. .";
 }
 ?>
